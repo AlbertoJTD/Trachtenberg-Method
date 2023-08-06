@@ -7,7 +7,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrachtenbergMethod.Android"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrachtenbergMethod.iOS", "TrachtenbergMethod\TrachtenbergMethod.iOS\TrachtenbergMethod.iOS.csproj", "{8DCDD373-A64E-4244-9E26-CB7E5A46E369}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrachtenbergMethod", "TrachtenbergMethod\TrachtenbergMethod\TrachtenbergMethod.csproj", "{126B41B0-E800-41F2-B4A2-2491BA71ACAC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TrachtenbergMethod", "TrachtenbergMethod\TrachtenbergMethod\TrachtenbergMethod.csproj", "{126B41B0-E800-41F2-B4A2-2491BA71ACAC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{5A9471F3-BB3D-4286-85C4-23EFE9FD6BE1}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

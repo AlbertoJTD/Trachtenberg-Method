@@ -1,13 +1,22 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="TrachtenbergMethod.MainPage">
+             x:Class="TrachtenbergMethod.MainPage"
+             Title="Trachtenber method">
 
     <StackLayout>
         <Label Text="Trachtenberg Method"
                HorizontalOptions="Center"
                VerticalOptions="CenterAndExpand"
-                FontSize="36"/>
+               FontSize="36"/>
+        <StackLayout Orientation="Horizontal"
+                     VerticalOptions="CenterAndExpand"
+                     HorizontalOptions="CenterAndExpand">
+
+            <Entry Placeholder="Number 1"/>
+
+            <Entry Placeholder="Number 2"/>
+        </StackLayout>
     </StackLayout>
 
 </ContentPage>
