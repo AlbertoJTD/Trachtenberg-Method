@@ -1,12 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+            xmlns:Trachtenberg="clr-namespace:TrachtenbergMethod.Views"
              x:Class="TrachtenbergMethod.Views.TabbedPages">
   <!--Pages can be added as references or inline-->
-    <ContentPage Title="Information">
-        <Label Text="Here goes information about Trachtenberg method" />
-    </ContentPage>
-    <ContentPage Title="Calculate">
-        <Label Text="Here you can do a multiplication..." />
-    </ContentPage>
+    <Trachtenberg:Info />
+
+    <Trachtenberg:Calculate />
 </TabbedPage>
